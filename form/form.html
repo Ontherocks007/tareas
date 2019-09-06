@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet" />
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card text-left">
+                    <div class="card-header">
+                        <h1>Payment for example</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="card-title">
+                                    <div class="alert alert-danger" role="alert">
+                                        Some fields are missing
+                                </h5>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label for="text" >#Card</label>
+                                    <input type="text" class="form-control" id="inputcard" placeholder="Credit card number" name="card">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="text">CVC#</label>
+                                    <input type="text" class="form-control" id="inputcvc" placeholder="3 numbers" name="cvc">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputAddress">Amount</label>
+                                    <input type="text" class="form-control" id="inputamount" placeholder="amount" name="amount">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputFirstname">First Name</label>
+                                    <input type="text" class="form-control" id="inputfirstname" name="firstname">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress2">Last name</label>
+                                    <input type="text" class="form-control" id="inputAddress2" name="lastName">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity" name="city">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Pick a state</option>
+                                        <option>Virginia</option>
+                                        <option>Florida</option>
+                                      <option>California</option>
+                                      <option>Alaska</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputZip">Postal Code</label>
+                                    <input type="text" class="form-control" id="inputZip" name="postaCode">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <p>We accept:</p>
+                                    <div class="p-3 bg-dark text-white">
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline1"><i class="fab fa-cc-mastercard"></i></label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-cc-visa"></i></label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline1"><i class="fab fa-cc-amex"></i></label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-cc-apple-pay"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputState">Message</label>
+                                    <textarea class="form-control" rows="5" cols="20"></textarea>
+                                    <p>Add any notes here.</p>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="card-footer text-right">
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button> </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>

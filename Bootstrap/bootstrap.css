@@ -1,0 +1,32 @@
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: #A9A9A9;
+}
+header{background: white;
+        width: 100%;
+        text-align: center;
+}
+h1{
+    margin-top: 0;
+}
+.imagen1 {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    border-bottom: 40px solid #A9A9A9;
+    margin-left: 35px;
+}
+
+.imagen1 img {
+    width: 100%;
+}
+
+h2{
+    border-bottom: 0.5px solid #A9A9A9;
+    text-align: left;
+    text-indent: 30px;
+}
